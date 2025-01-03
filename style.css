@@ -3,6 +3,49 @@
     color: black;
     padding-left: 20px;
    
-h1{
-    
 }
+.container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 2px solid #333;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+
+  .static {
+    position: static;
+    background-color: lightblue;
+    padding: 10px;
+  }
+
+  .relative {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    background-color: lightgreen;
+    padding: 10px;
+  }
+
+  .absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: lightcoral;
+    padding: 10px;
+  }
+
+  .fixed {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+  }
+
+  .sticky {
+    position: sticky;
+    top: 0;
+    background-color: lightpink;
+    padding: 10px;
+  }
